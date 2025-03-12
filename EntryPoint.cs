@@ -42,7 +42,7 @@ Made by Vincentsgm");
 			Game.LogTrivial($"UnlockMainGate: {Settings.UnlockMainGate}");
 			if (Settings.UnlockMainGate) DoorUnlocking.MainGate.UnlockInLoop();
 
-			Game.LogTrivial($"UnlockMainGate: {Settings.DisableWaves}");
+			Game.LogTrivial($"DisableWaves: {Settings.DisableWaves}");
 			if (Settings.DisableWaves) Waves.DisableWavesInLoop();
 
 			Game.LogTrivial($"EnableTrafficPath: {Settings.EnableTrafficPaths}");
